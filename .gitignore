@@ -1,0 +1,2 @@
+# Ignore the secrets file that stores the password for the app
+.streamlit/secrets.toml
