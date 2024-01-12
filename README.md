@@ -1,1 +1,2 @@
 # Budget2024
+This streamlit app is a way of keeping track of personal finances by reading in a bank statement from the ASN bank and categorise them according to predefined filters which scan the bankstatement for bankaccount number, name or description. 
