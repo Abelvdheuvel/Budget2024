@@ -101,6 +101,10 @@ def graphs(time_duration, netto_savings):
 
 
 def main():
+    # Start by logging in with the password
+    if not app_management.check_password():
+        st.stop()
+        
     with st.container(border=True):
         col1, col2 = st.columns(2)
         with col1:

@@ -1,4 +1,4 @@
-pandas==1.5.1
-streamlit==1.21.0
+pandas==1.5.2
+streamlit==1.29.0
 plotly==5.11.0
 deta==1.2.0
