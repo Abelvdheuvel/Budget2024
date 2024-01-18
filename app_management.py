@@ -43,6 +43,12 @@ def connect_category_deta():
     db = deta.Base("budget_category_app")
     return db
 
+def connect_to_be_categorised_deta():
+    """Connect to the database with the category from deta"""
+    deta = Deta(st.secrets["key"])
+    db = deta.Base("budget_to_be_cat_app")
+    return db
+
 def get_first_letter(s):
     for char in s:
         if char.isalpha() and char.isascii():  # Check if the character is an ASCII alphabet letter
